@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja da barbie - Bonecas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header class="cabecalho">
+                <img src="img/logo.barbie.png" width="60" height="60">
+                
+                <nav class="cabecalho">
+                  <div class="nomes">
+                    <a href="#">Novidades</a>
+                    <a href="#">Saiba mais</a>
+                    <a href="#">Categorias</a>
+
+                <div class="icon-coracao"><span><ion-icon name="heart-outline"></ion-icon></span></div>
+
+                <div class="icon-bag">
+                    <span><ion-icon name="bag-outline"></ion-icon></span>
+                </div>
+
+                <div class="icon-pesquisa">
+                    <span><ion-icon name="search-outline"></ion-icon></span>
+                </div>
+
+                <div class="icon    -user">
+                    <span><ion-icon name="person-circle-outline"></ion-icon></span>
+            </div>
+        </nav>
+        </header>
+    
+        <div class="barra-barbie">
+            <img src="img/barra barbie.jpg" width="2000">
+        </div>
+
+        <div class="colecao">
+            <img src="img/colec.png" alt=""width="1600" height="800">
+        </div>
+
+<section class="meio"><h1>NA PROMOÇÃO</h1>
+    <div class="container1">
+
+    <div class="bonecos">
+        <img src="img/bonecos.png" alt="">
+        <button class="skipper"><h2 class="number">119,90</h2> </button>
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="contato">
+<div class="redes sociais">
+
+    <span class="insta"><ion-icon name="logo-instagram"></ion-icon></span>
+
+    <span class="face"><ion-icon name="logo-facebook"></ion-icon></span>
+
+    <span class="tt"><ion-icon name="logo-twitter"></ion-icon></span>
+</div>
+</footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  }
+
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  background-color: white;
+  letter-spacing: 1px;
+  
+  
+}
+
+.nomes {
+ display: flex;
+ justify-content: flex-start;
+}
+
+.container {
+    position: absolute;
+    right: 550px;
+    top: 50px;
+
+}
+
+ .barra-barbie{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .colecao{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+ .bonecos{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+ }
+
+.icon-coracao {
+    color: #FF33AD;
+}
+
+.icon-bag {
+    color: #FF33AD;
+}
+
+.icon-pesquisa {
+    color: #FF33AD;
+}
+
+.icon-user {
+    color: #FF33AD;
+}
+
+.meio {
+ background-color: #FF33AD;
+}
+
+.skipper {
+position: absolute;
+width: 207px;
+height: 50px;
+left: 330px;
+top: 1150px;
+
+background: #FFD3E6;
+box-shadow: 0px 3.25982px 3.25982px rgba(0, 0, 0, 0.25);
+border-radius: 16.2991px;
+border: 0px;
+}
+
+.number {
+    color: #FF33AD;
+}
+
+/*justify-content: space-around;
+  padding-top: 1rem;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  position: fixed;
+  transition: all .35% ease;
+  background-color:white;
+  padding: 14 px 14%;
+  */
+
